@@ -27,7 +27,9 @@ export default {
       return{
         pokemonArr: [],
         pokemon: null, 
-        showPokemon: false
+        showPokemon: false,
+        showAnswer: false,
+        message: ''
       }
     },
     methods:{
@@ -47,7 +49,6 @@ export default {
          }
       }, 
       newGame() {
-       this.showPokemon = false
        this.showPokemon = false
        this.pokemonArr =[]
        this.pokemon= null

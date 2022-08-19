@@ -20,6 +20,10 @@ describe('PokemonPageComponent', () =>{
         shallowMount(PokemonPage)
         expect( mixPokemonArraySpy ).toHaveBeenCalled
     })
+
+    test('debe de hacer match con el snapshot cuando cargan los pokemons', () =>{
+        
+    })
   
 
 })
